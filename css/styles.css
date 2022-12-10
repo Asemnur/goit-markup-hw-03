@@ -18,13 +18,16 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-    /* outline: 1px solid red; */
+    padding-right: 15px;
+    padding-left: 15px;
+    outline: 1px solid red;
 }
 
 .header {
     font-weight: 500;
     font-size: 14px;
     background-color: var(--white);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -96,22 +99,14 @@
     color:var(--blue);
 }
 
-.line {
-    border-bottom: 1px solid #ECECEC;
-    width: 1600px;
-    margin: 0 auto;
-}
-
 /* hero */
 
 .hero {
     background-color: var(--darkgrey);
-    width: 1600px;
-    margin: 0 auto;
     }
 
 .hero-main {
-    padding: 200px 0;
+    padding: 200px 15px;
 }
 
 .hero-list {
@@ -162,13 +157,10 @@
 .features-list {
     list-style: none;
     display: flex;
+    gap: 30px;
 }
 .features-list li {
     width: 270px;
-}
-
-.features-list li:not(:last-child) {
-    margin-right: 30px;
 }
 
 .features-title {
@@ -214,10 +206,8 @@
 /* team */
 
 .team {
-    width: 1600px;
     color:var(--black);
     background-color: var(--greyish);
-    margin: 0 auto;
 }
 
 .team-container {
@@ -310,22 +300,23 @@
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
     }
-
-.project-item {
-    margin-right: 30px;
-}
-
-.project-item:nth-child(3n+3) {
-    margin-right: 0;
-}
 
 .project-link {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .project-titletext {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .project-title {
@@ -350,8 +341,6 @@
     font-family: Roboto, sans-serif;
     color:var(--white);
     background-color:var(--darkgrey);
-    width: 1600px;
-    margin: auto;
 }
 
 .footer-container {
