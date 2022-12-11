@@ -20,7 +20,7 @@
     margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 .header {
@@ -103,11 +103,9 @@
 
 .hero {
     background-color: var(--darkgrey);
+    padding-top: 200px;
+    padding-bottom: 200px;
     }
-
-.hero-main {
-    padding: 200px 15px;
-}
 
 .hero-list {
     list-style-type: none;
@@ -149,7 +147,7 @@
 
 /* Features */
 
-.features-container {
+.features {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -182,7 +180,7 @@
 
 /* activity */
 
-.activity-container {
+.activity {
     padding-bottom: 94px;
 }
 
@@ -208,9 +206,6 @@
 .team {
     color:var(--black);
     background-color: var(--greyish);
-}
-
-.team-container {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -341,9 +336,6 @@ img {
     font-family: Roboto, sans-serif;
     color:var(--white);
     background-color:var(--darkgrey);
-}
-
-.footer-container {
     padding-top: 60px;
     padding-bottom: 60px;
     }
